@@ -42,3 +42,24 @@ public class Main {
     }
 }
 
+/* . Task Part 2 — Answer the questions
+Given sequence: (((()))(()))]
+Q1: Is it correct?
+
+❌ No, it’s incorrect. The reason is that:
+
+The string starts with brackets that are mostly balanced.
+
+But ends with ] which is a square bracket not matched with any [
+
+Q2: How to fix it?
+
+✅ Remove the ] or replace it with a matching opening bracket earlier like [, and close it with ].
+
+Example of corrected sequence: (((()))(())) ✅
+
+ */
+
+
+
+
